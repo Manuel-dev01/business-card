@@ -1,0 +1,49 @@
+body {
+    margin: 20px;
+    font-family: Courier New, Courier, monospace;
+}
+
+.avatar {
+    width: 175px;
+    box-shadow: 2px 5px  #888888;
+    border: 1px solid #392061;
+    border-radius: 6px
+}
+
+.card {
+    width: 435px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; 
+    justify-content: space-around;
+    text-align: center;   
+    background: #ddebf8;
+    color: #2b2839;
+    border-left: 3px solid #392061;
+    border-top: 3px solid #392061;
+    border-bottom: 3px solid #392061;
+    border-right: 3px solid #392061;
+    border-radius: 17px;
+    box-shadow: 5px 10px #888888;  
+    font-weight: bold; 
+    
+}
+
+h3:hover, p:hover, h4:hover{
+    opacity: .7
+}
+
+.real-icons{
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.icons{
+    margin: 0 5px;
+}
+
+
